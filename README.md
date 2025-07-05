@@ -13,7 +13,6 @@ It uses a hybrid "human-in-the-loop" workflow to handle the complex authenticati
       * Saves the text of each page to a separate `.md` file.
       * Downloads all images and saves them to a local `images` subfolder for each page.
       * Downloads embedded files like PDFs directly.
-      * Saves links to non-downloadable G-Suite files (Docs, Sheets) to a text file.
   * **Organized Output:** Creates a clean, structured folder hierarchy for the scraped content.
 
 ## The Workflow
@@ -38,7 +37,6 @@ The script operates in two main phases:
     │       └── image_2.png
     └── another_page/
         ├── content.md
-        └── document_links.txt
 ```
 
 -----
